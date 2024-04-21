@@ -1,6 +1,7 @@
 # MinHash-LSH
 Batched Minhash-LSH deduplication for large datasets
 This Repo is Highly Adopted from datasketch and text-dedup
+by default uses SHA-64 for hash signature
 
 to get started
 
