@@ -21,3 +21,16 @@ column="Hinglish"
 
 dedup_ds=deduplicate_dataset(ds,column)
 ```
+
+args
+```
+    ds: Dataset,
+    column,
+    threshold=0.8, 
+    num_perm=256,
+    batch_size=10_000,
+    num_proc= 1 if os.name == "nt" else os.cpu_count() ,
+    ngram_size=5,
+    min_length=5,
+    bands_rows=(None,None)
+```
