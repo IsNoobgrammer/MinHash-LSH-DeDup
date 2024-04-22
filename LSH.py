@@ -85,8 +85,6 @@ def deduplicate_dataset(
                     remove_columns=[col for col in ds.column_names if col != INDEX_COLUMN],
                     num_proc=num_proc,
                     with_indices=False,
-                    batched=True,
-                    batch_size=batch_size,
                     desc="Min-Hashing...",
                 )
 
