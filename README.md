@@ -7,7 +7,7 @@ to get started
 
 
 ```
-git clone https://github.com/IsNoobgrammer/MinHash-LSH.git
+git clone https://github.com/IsNoobgrammer/MinHash-LSH-DeDup.git
 cd MinHash-LSH
 pip install scipy datasets torch -qU
 ```
