@@ -8,13 +8,13 @@ to get started
 
 ```
 git clone https://github.com/IsNoobgrammer/MinHash-LSH-DeDup.git
-cd MinHash-LSH
+cd MinHash-LSH-DeDup
 pip install scipy datasets torch -qU
 ```
 
 To use 
 ```
-from datasets import load_dataaset
+from datasets import load_dataset
 from LSH import deduplicate_dataset
 
 ds=load_dataset("fhai50032/HINGLISH-LIMA",split="train")
