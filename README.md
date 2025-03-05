@@ -11,6 +11,7 @@ git clone https://github.com/IsNoobgrammer/MinHash-LSH-DeDup.git
 cd MinHash-LSH-DeDup
 pip install scipy datasets torch hf_transfer -qU
 export HF_HUB_ENABLE_HF_TRANSFER=1
+HF_DATASETS_IN_MEMORY_MAX_SIZE=<some_bytes_less_than_your_ram>
 ```
 
 To use 
