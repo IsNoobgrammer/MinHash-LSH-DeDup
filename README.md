@@ -9,7 +9,8 @@ to get started
 ```
 git clone https://github.com/IsNoobgrammer/MinHash-LSH-DeDup.git
 cd MinHash-LSH-DeDup
-pip install scipy datasets torch -qU
+pip install scipy datasets torch hf_transfer -qU
+export HF_HUB_ENABLE_HF_TRANSFER=1
 ```
 
 To use 
